@@ -2,7 +2,7 @@
 <html>
   
   <head>
-    
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <h1>
    Login Here to continue to your Vault!
     </h1>
@@ -134,6 +134,12 @@ body {
       <input type="password" placeholder="password"/>
       <button><a href="https://cloud.dynamicscraft.com/panel">login</button>
       <p class="message">Not registered? <a href="#">Create an account</a></p>
+        <button
+class="g-recaptcha"
+data-sitekey="6Lfa8lwUAAAAALB9JtGP1zNcEiDfgvlp1Uu-FHU-"
+data-callback="YourOnSubmitFn">
+Submit
+</button>
     </form>
   </div>
 </div>
